@@ -1,5 +1,6 @@
 import streamlit as st
-st.set_page_config(layout='wide')
+
+st.set_page_config(layout="wide")
 
 col1, col2 = st.columns(2)
 
@@ -11,6 +12,12 @@ with col2:
     content = """
 I'm Alicia Corke and I'm a programmer from Ottawa Ontario, Canada.
 
-"""  
+""" 
+st.info(content)
+
+content2 = """
+Enjoy my portfolio. Thank You!
+
+""" 
 
 st.info(content)
