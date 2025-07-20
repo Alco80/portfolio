@@ -20,4 +20,4 @@ Enjoy my portfolio. Thank You!
 
 """ 
 
-st.info(content)
+st.info(content2)
